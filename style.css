@@ -496,6 +496,8 @@
   }
 }
 
+
+
 /* about-section */
 .about-section {
   padding: 80px 20px;
@@ -505,7 +507,7 @@
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
@@ -589,7 +591,7 @@
 @media screen and (max-width: 768px) {
   .about-container {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .about-text, .about-image {
